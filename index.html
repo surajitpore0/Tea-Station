@@ -14,7 +14,25 @@
 <body>
 
     <!-- nav button -->
+    <span class="nav-btn" id="nav-btn">
+        <i class="fas fa-bars"></i>
+
+    </span>
     <!-- navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-header">
+            <span class="nav-close" id="nav-close">
+                <i class="fas fa-times"></i>
+
+            </span>
+        </div>
+        <ul class="nav-items">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="skill.html" class="nav-link">Skills</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="product.html" class="nav-link">product</a></li>
+        </ul>
+    </nav>
     <!-- header -->
     <header class="header">
         <div class="banner">
@@ -113,8 +131,10 @@
             <!-- product info -->
             <article class="product-info text-white">
                 <!-- section title -->
-                <h3 class="section-subtitle">Check out </h3>
-                <h2 class="section-title">our product</h2>
+                <div>
+                    <h3 class="section-subtitle">Check out </h3>
+                    <h2 class="section-title">our product</h2>
+                </div>
                 <!-- end section title -->
                 <p class="product-text">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus voluptates culpa minima deleniti quia vitae maxime vero inventore maiores officia?
@@ -150,6 +170,76 @@
         </div>
     </section>
     <!-- end product -->
+
+    <!-- services -->
+    <section class="services">
+        <!-- section title -->
+        <div class="services-title text-center">
+            <h3 class="section-subtitle">explore</h3>
+            <h2 class="section-title ">Our Services</h2>
+        </div>
+        <!-- end section title -->
+        <div class="section-center clearfix">
+            <!-- single card -->
+            <article class="service-card">
+                <!-- image container -->
+                <div class="service-img-container">
+                    <!-- img -->
+                    <img src="./assets/images/product 1.jpeg" class="service-img" alt="">
+                    <!-- service icon -->
+                    <span class="service-icon">
+                        <i class="fas fa-mortar-pestle fa-fw"></i>
+                    </span>
+                </div>
+                <!-- service-info -->
+                <div class="service-info">
+                    <h4>custom recipe</h4>
+                    <h4>service</h4>
+                    <button type="button" class="service-btn">read more</button>
+                </div>
+            </article>
+            <!-- end of single card -->
+            <!-- single card -->
+            <article class="service-card">
+                <!-- image container -->
+                <div class="service-img-container">
+                    <!-- img -->
+                    <img src="./assets/images/product 2.jpeg" class="service-img" alt="">
+                    <!-- service icon -->
+                    <span class="service-icon">
+                        <i class="fas fa-mug-hot fa-fw"></i>
+                    </span>
+                </div>
+                <!-- service-info -->
+                <div class="service-info">
+                    <h4>custom recipe</h4>
+                    <h4>service</h4>
+                    <button type="button" class="service-btn">read more</button>
+                </div>
+            </article>
+            <!-- end of single card -->
+            <!-- single card -->
+            <article class="service-card">
+                <!-- image container -->
+                <div class="service-img-container">
+                    <!-- img -->
+                    <img src="./assets/images/product4.jpeg" class="service-img" alt="">
+                    <!-- service icon -->
+                    <span class="service-icon">
+                        <i class="fas fa-home fa-fw"></i>
+                    </span>
+                </div>
+                <div class="service-info">
+                    <h4>custom recipe</h4>
+                    <h4>service</h4>
+                    <button type="button" class="service-btn">read more</button>
+                </div>
+            </article>
+            <!-- end of single card -->
+        </div>
+
+    </section>
+    <!-- end services -->
 
     <!-- contact -->
     <section class="contact">
@@ -225,6 +315,8 @@
         </div>
     </footer>
     <!-- end footer -->
+
+    <script src="./assets/app.js"></script>
 
 </body>
 
